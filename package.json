@@ -1,0 +1,20 @@
+{
+  "name": "LIRI",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface  CLI App dd Command line node app that takes in parameters and gives you bsck data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techtrauma26/LIRI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techtrauma26/LIRI/issues"
+  },
+  "homepage": "https://github.com/techtrauma26/LIRI#readme"
+}
