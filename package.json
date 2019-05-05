@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/techtrauma26/LIRI/issues"
   },
-  "homepage": "https://github.com/techtrauma26/LIRI#readme"
+  "homepage": "https://github.com/techtrauma26/LIRI#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0"
+  }
 }
