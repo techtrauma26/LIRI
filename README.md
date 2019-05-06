@@ -17,7 +17,7 @@ Liri is a command line node app that takes in parameters and generates back data
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](img/concert.gif)
 
 
 ## Technologies
