@@ -1,167 +1,27 @@
-Name: Espaço Patrick Ribeiro - Aeroporto
+Name: Hard Rock Stadium
 
-Location: Goiabeiras 
+Location: Miami Gardens FL
 
-Date: 06/15/2019
-------------------------------------------------------------
-
-Title: 300
-
-Year: 09 Mar 2007
-
-IMBD Rating: undefined
-
-Rotten Tomatoes Rating: 60%
-
-Country: USA, Canada, Bulgaria
-
-Language: English
-
-Plot: King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.
-
-Actors: Gerard Butler, Lena Headey, Dominic West, David Wenham
-------------------------------------------------------------
-
-Title: 300
-
-Year: 2007
-
-IMDB Rating: 7.7
-
-Rotten Tomatoes Rating: 60%
-
-Country: USA, Canada, Bulgaria
-
-Language: English
-
-Plot: King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.
-
-Actors: Gerard Butler, Lena Headey, Dominic West, David Wenham
-------------------------------------------------------------
-
-Artist: Avicii
-
-Song Name: Levels - Radio Edit
-
-Link: null
-
-Album:20 #1's: Workout
-------------------------------------------------------------
-
-Artist: Kid Cudi
-
-Song Name: Frequency
-
-Link: null
-
-Album:Passion, Pain & Demon Slayin'
-------------------------------------------------------------
-
-Artist: Flobots
-
-Song Name: Handlebars
-
-Link: null
-
-Album:Fight With Tools
-------------------------------------------------------------
-
-Artist: Vulfpeck
-
-Song Name: Dean Town
-
-Link: https://p.scdn.co/mp3-preview/bb5097bd49baed573ced30273b49079e42537357?cid=7c54d9965ea84cd3885c99a1f0e1bb7c
-
-Album:The Beautiful Game
-------------------------------------------------------------
-
-Artist: Backstreet Boys
-
-Song Name: I Want It That Way
-
-Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=7c54d9965ea84cd3885c99a1f0e1bb7c
-
-Album:The Hits--Chapter One
-------------------------------------------------------------
-
-Artist: Travis Scott
-
-Song Name: SICKO MODE
-
-Link: https://p.scdn.co/mp3-preview/1c3c01c64477b356e28a652b6447f4ef96689a71?cid=7c54d9965ea84cd3885c99a1f0e1bb7c
-
-Album:ASTROWORLD
-------------------------------------------------------------
-
-Title: The Avengers
-
-Year: 2012
-
-IMDB Rating: 8.1
-
-Rotten Tomatoes Rating: 92%
-
-Country: USA
-
-Language: English, Russian, Hindi
-
-Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
-
-Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
-------------------------------------------------------------
-
-Name: Espaço Patrick Ribeiro - Aeroporto
-
-Location: Goiabeiras 
-
-Date: 06/15/2019
-------------------------------------------------------------
-
-Name: XS Nightclub
-
-Location: Las Vegas NV
-
-Date: 05/18/2019
-------------------------------------------------------------
-
-Name: XS Nightclub
-
-Location: Las Vegas NV
-
-Date: 05/18/2019
-------------------------------------------------------------
-
-Name: XS Nightclub
-
-Location: Las Vegas NV
-
-Date: 05/18/2019
-------------------------------------------------------------
-
-Name: Monarch
-
-Location: San Francisco CA
-
-Date: 05/23/2019
-------------------------------------------------------------
-
-Name: Annie's Bar & Bistro
-
-Location: Essex 
-
-Date: 05/05/2019
-------------------------------------------------------------
-
-Name: Drai's Beachclub and Nightclub
-
-Location: Las Vegas NV
-
-Date: 05/17/2019
+Date: 05/10/2019
 ------------------------------------------------------------
 
 Name: Hard Rock Stadium
 
-Location: Miami Gardens FL
+Location: Miami Gardens , FL
+
+Date: 05/10/2019
+------------------------------------------------------------
+
+Name: Hard Rock Stadium
+
+Location: Miami Gardens,FL
+
+Date: 05/10/2019
+------------------------------------------------------------
+
+Name: Hard Rock Stadium
+
+Location: Miami Gardens, FL
 
 Date: 05/10/2019
 ------------------------------------------------------------

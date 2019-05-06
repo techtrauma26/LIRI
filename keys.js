@@ -1,4 +1,4 @@
-console.log("this is loaded");
+// console.log("this is loaded");
 
 var dotenv = require("dotenv").config(); 
 exports.spotify = {

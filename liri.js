@@ -26,9 +26,9 @@ function findConcert(artist) {
     let concertDate = jsonDatac.datetime;
     let momentDate = moment(concertDate).format("MM/DD/YYYY");
     let concertData = [
-
+     
       "Name: " + jsonDatac.venue.name,
-      "Location: " + jsonDatac.venue.city + " " + jsonDatac.venue.region,
+      "Location: " + jsonDatac.venue.city + ", " + jsonDatac.venue.region,
       "Date: " + momentDate
 
     ].join("\n\n");
