@@ -1,4 +1,4 @@
-
+var axios = require("axios");
 var dotenv = require("dotenv").config();
 var keys = require("./keys.js");
 // var spotify = new Spotify(keys.spotify);
@@ -16,26 +16,27 @@ moment().format();
 function  findConcert (artist){
   const divider = "\n------------------------------------------------------------\n\n";
   const concertURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-    request(concertURL , function ( err, body) {
+
+  axios.get(concertURL).then (function ( err, response) {
       if (err) {
         return console.log (err);
-      }else {
-        const jsonDatac = JSON.parse(body);
+      }
+        const jsonDatac = response.data;
         const concertDate = jsonDatac[0].datetime;
         const momentDate = moment().format("L");
         const concertData = [
 
         "Name: " + jsonDatac[0].venue.name,
-        "Location: " + jsonDatac[0].venue.city, + jsonDatac.venue.region,
+        "Location: " + jsonDatac[0].venue.city, + jsonDatac[0].venue.region,
         "Date: " + momentDate
 
       ].join("\n\n");
       console.log (concertData);
-      fs.appendFile("log.txt", concertData + divider);
-      };
+      fs.appendFile("log.txt", concertData + divider)
+    
      });
   
-    console.log(findConcert);
+    // console.log(findConcert);
   }
   // 2. `node liri.js spotify-this-song '<song name here>'` //
 
@@ -48,15 +49,39 @@ function  findConcert (artist){
   // }
 
   // 3. `node liri.js movie-this '<movie name here>'` //
+function findMovie (movie) {
+  const movieURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+  // console.log (movieURL);
+  if (!movie) {
+    movie = "Mr.Nobody";
 
-
-
-
-
+    axios.get(movieURL).then (function ( err, response) {
+      if (err) {
+        return console.log (err);
+      }
+        var jsonDatam = JSON.parse(response);
+        // var movieData = [
+console.log (
+        "Title: " + jsonDatam.Title,
+        "Year: " + jsonDatam.Released,
+        "IMBD Rating: " + jsonDatam.imbdRating,
+        "Rotten Tomatoes Rating: " + jsonDatam.Ratings[1].Value,
+        "Country: " + jsonDatam.Country,
+        "Language: " + jsonDatam.Language,
+        "Plot: " + jsonDatam.Plot,
+        "Actors: " + jsonDatam.Actors,)
+    
+      // ].join("\n\n");
+      console.log (movieData);
+      fs.appendFile("log.txt", movieData + divider);
+    
+     });
   
-  // this.findMovie = function(movie) {
-  //   var URL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
-  //   // console.log (URL)
+    // console.log(findConcert);
+  }
+
+}
+
   //   request (URL, function(response){
   //     var jsonDataM = response.data;
 
@@ -77,3 +102,18 @@ function  findConcert (artist){
 
 
 // 4. `node liri.js do-what-it-says` //
+const liriCommand = function (search, info){
+  switch (search){
+    case "concert-this":
+    findConcert(info);
+    break;
+    case "spotify-this-song":
+    findArtist(info);
+    break;case "movie-this":
+    findMovie(info);
+    break;case "do-what-it-says":
+    findDoWhatItSays();
+    break;
+  }
+};
+liriCommand (search,term);
