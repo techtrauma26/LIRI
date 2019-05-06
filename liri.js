@@ -12,9 +12,9 @@ const moment = require("moment");
 //-------------------------------------------------------------------------------------------------------------------------------// 
 
 // 1.  `node liri.js concert-this <artist/band name here>` //
-function findConcert(term) {
+function findConcert(artist) {
   const divider = "\n------------------------------------------------------------\n\n";
-  const concertURL = "https://rest.bandsintown.com/artists/" + term + "/events?app_id=codingbootcamp";
+  const concertURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
   axios.get(concertURL).then(function (response) {
     // if (err) {
