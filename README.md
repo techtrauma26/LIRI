@@ -7,27 +7,14 @@
 ## Table of contents
 
 * [General info](#general-info)
+* [Setup](#setup)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+
 
 ## General info
 
 Liri is a command line node app that takes in parameters and generates back data by sending requests using the axios package to the Bands in Town, Spotify and OMDB APIs. By using API calls and parsing through returned JSON objects, we can output them in a specified format.
-
-## Screenshots
-
-![Example screenshot](img/concert.gif)
-
-
-## Technologies
-
-* [node.js] - evented I/O for the backend
-* [JavaScript]
-* [NPM] - Package manager
-* [Spotify-API] - API library for Spotify
-* [BandsinTown-API] - API library for Bands/Artists
-* [OMDB-API] - API library for movies
 
 ## Setup
 
@@ -64,5 +51,19 @@ $ node liri.js concert-this '<movie name here>'
 ```sh
 $ node liri.js do-what-it-says
 ```
+
+## Screenshots
+
+![Example screenshot](img/concert.gif)
+
+
+## Technologies
+
+* [Node.js](https://nodejs.org/)- evented I/O for the backend
+* [JavaScript]
+* [NPM] - Package manager
+* [Spotify-API] - API library for Spotify
+* [BandsinTown-API] - API library for Bands/Artists
+* [OMDB-API] - API library for movies
 
 
