@@ -8,7 +8,7 @@
 
 * [General info](#general-info)
 * [Setup](#setup)
-* [Screenshots](#screenshots)
+* [Examples](#examples)
 * [Technologies](#technologies)
 
 
@@ -52,9 +52,10 @@ $ node liri.js concert-this '<movie name here>'
 $ node liri.js do-what-it-says
 ```
 
-## Screenshots
+## Examples 
 
 ![Example screenshot](img/concert.gif)
+![Example screenshot](img/spotify.gif)
 
 
 ## Technologies
