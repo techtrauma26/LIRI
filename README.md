@@ -52,19 +52,19 @@ $ node liri.js concert-this '<movie name here>'
 $ node liri.js do-what-it-says
 ```
 
-## Examples 
+## Examples
 
 ![Example screenshot](img/concert.gif)
 ![Example screenshot](img/spotify.gif)
-
+![Example screenshot](img/movie.gif)
+![Example screenshot](img/dowhatitsays.gif)
 
 ## Technologies
 
 * [Node.js](https://nodejs.org/)- evented I/O for the backend
-* [JavaScript]
-* [NPM] - Package manager
-* [Spotify-API] - API library for Spotify
-* [BandsinTown-API] - API library for Bands/Artists
-* [OMDB-API] - API library for movies
-
+* [JavaScript](https://www.javascript.com/)
+* [NPM](https://www.npmjs.com/) - Package manager
+* [Spotify-API](https://developer.spotify.com/documentation/web-api/) - API library for Spotify
+* [BandsinTown-API](http://www.artists.bandsintown.com/bandsintown-api) - API library for Bands/Artists
+* [OMDB-API](https://www.omdbapi.com/) - API library for movies
 
